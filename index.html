@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Berita Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Portal Berita Terkini</h1>
+      <p>Klik kartu berita untuk membaca artikel selengkapnya di web asli.</p>
+    </header>
+
+    <!-- Navigation Kategori -->
+    <nav class="categories">
+      <button class="nav-btn active" onclick="changeCategory('technology', this)">Teknologi</button>
+      <button class="nav-btn" onclick="changeCategory('sports', this)">Olahraga</button>
+      <button class="nav-btn" onclick="changeCategory('entertainment', this)">Hiburan</button>
+      <button class="nav-btn" onclick="changeCategory('politics', this)">Politik</button>
+      <button class="nav-btn" onclick="changeCategory('anime', this)">Anime</button>
+    </nav>
+
+    <!-- Container Berita -->
+    <main id="news-container" class="news-grid">
+      <!-- Berita akan dimuat otomatis di sini oleh JavaScript -->
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
