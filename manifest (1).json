@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "INewsGlobal",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "INewsGlobal",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "Masih Baru",
+  "description": "baru berdiri"
+}
